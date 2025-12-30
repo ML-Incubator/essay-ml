@@ -378,7 +378,8 @@ class FeatureExtractor:
             raise ValueError("Call fit_tfidf() first during training")
 
         cleaned_texts = [self.preprocessor.clean_text(t) for t in texts]
-        return self.vectorizer.transform(cleaned_texts).toarray()
+        result: np.ndarray = self.vectorizer.transform(cleaned_texts).toarray()
+        return result
 
     def extract_all_features(self, text: str) -> np.ndarray:
         """
