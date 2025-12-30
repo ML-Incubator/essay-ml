@@ -1,0 +1,26 @@
+{
+  "essays": [
+    {
+      "id": 1,
+      "text": "This is a sample essay for testing purposes. It contains multiple sentences and demonstrates basic writing structure.",
+      "expected_score": 65,
+      "category_scores": {
+        "grammar": 70,
+        "vocabulary": 60,
+        "structure": 65,
+        "argument": 65
+      }
+    },
+    {
+      "id": 2,
+      "text": "Education is the cornerstone of a progressive society. Through comprehensive learning, individuals develop critical thinking skills that enable them to contribute meaningfully to their communities. Moreover, education fosters innovation and drives economic growth.",
+      "expected_score": 85,
+      "category_scores": {
+        "grammar": 90,
+        "vocabulary": 85,
+        "structure": 85,
+        "argument": 80
+      }
+    }
+  ]
+}
